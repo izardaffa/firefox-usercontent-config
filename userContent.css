@@ -1,0 +1,29 @@
+@-moz-document url-prefix(about:home), url-prefix(about:newtab) {
+    body {
+        background: url(./blue_archive_story_1.jpg) !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+
+    .top-site-outer:hover {
+        background-color: rgba(255, 255, 255, 0.2) !important;
+        backdrop-filter: blur(10px) !important;
+    }
+
+    .logo {
+        background-image: url("Firefox.png") !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        width: 274px !important;
+        height: 122px !important;
+    }
+
+    .wordmark {
+        display: none !important;
+    }
+
+    .search-handoff-button {
+        background-image: url("Chihiro_Halo.webp") !important;
+    }
+}
